@@ -1,0 +1,68 @@
+{
+    "levelDifficulty": {
+        "lesson_num": 11
+    },
+    "bachelor": {
+        "checkpoints": [
+            {
+                "steps": 31499973,
+                "file_path": "results\\Abstract1\\bachelor\\bachelor-31499973.onnx",
+                "reward": 13.098875283130578,
+                "creation_time": 1722639019.359313,
+                "auxillary_file_paths": [
+                    "results\\Abstract1\\bachelor\\bachelor-31499973.pt"
+                ]
+            },
+            {
+                "steps": 31999983,
+                "file_path": "results\\Abstract1\\bachelor\\bachelor-31999983.onnx",
+                "reward": 10.66777455355182,
+                "creation_time": 1722641088.9244304,
+                "auxillary_file_paths": [
+                    "results\\Abstract1\\bachelor\\bachelor-31999983.pt"
+                ]
+            },
+            {
+                "steps": 32499983,
+                "file_path": "results\\Abstract1\\bachelor\\bachelor-32499983.onnx",
+                "reward": 6.848901574810346,
+                "creation_time": 1722643152.593672,
+                "auxillary_file_paths": [
+                    "results\\Abstract1\\bachelor\\bachelor-32499983.pt"
+                ]
+            },
+            {
+                "steps": 32778694,
+                "file_path": "results\\Abstract1\\bachelor\\bachelor-32778694.onnx",
+                "reward": 9.748380773898328,
+                "creation_time": 1722644301.416342,
+                "auxillary_file_paths": [
+                    "results\\Abstract1\\bachelor\\bachelor-32778694.pt"
+                ]
+            },
+            {
+                "steps": 32795464,
+                "file_path": "results\\Abstract1\\bachelor\\bachelor-32795464.onnx",
+                "reward": 9.627346907343183,
+                "creation_time": 1722858013.1219797,
+                "auxillary_file_paths": [
+                    "results\\Abstract1\\bachelor\\bachelor-32795464.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 32795464,
+            "file_path": "results\\Abstract1\\bachelor.onnx",
+            "reward": 9.627346907343183,
+            "creation_time": 1722858013.1219797,
+            "auxillary_file_paths": [
+                "results\\Abstract1\\bachelor\\bachelor-32795464.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.3.0+cu121"
+    }
+}

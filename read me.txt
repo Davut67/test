@@ -1,0 +1,22 @@
+First install unity and ml agents. Then add the folder in the unity hub to the project list.
+
+
+To start the training enter the virtual environment (this has to be created when installing ml agents), get to the project folder and run the prompt:
+mlagents-learn config\bachelor.yaml --run-id=(enter a run id) --seed=3
+
+In unity you should be in the scene Training Bachelor 1 and click the play button once ml agents asks for it.
+
+If the training was interrupted use the flag --resume at the end of the prompt or --force to start again from the beginning with the same run id.
+
+To get all result plots use the prompt "tensorboard --logdir results" in the project folder.
+
+The RobotAI script has to be adjusted according to the training approach.
+For discrete coordinates the abstraction boolean has to be true.
+For discretization with the finer grid the abstraction boolean should be false and the according lines of code in the abstraction mapping function have to be adjusted.
+
+If visualisation is needed (only for the abstactions) the Abstraction script also has to be adjusted to get the int coordinates or float coordinates (for the finer grid).
+
+For testing put in the onnyx file in the model parameter of the behaviour parameters section (The files are in the Gehirne folder. Click on the Robot object and scroll down to the behaviour parameters to drag the file in the correct place).
+Turn on DemonstrationOn in the Randomizer (click on the randomizer object of the environment the robot is in and check the sqaure).
+
+For the fully abstract approach the other scene is entered. The Abstraction script has to be adjusted for the visualisation to work.
